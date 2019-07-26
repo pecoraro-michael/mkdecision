@@ -101,6 +101,7 @@ export default {
           .then(function(response) {
             //handle success
             console.log(response);
+            alert("Your message has been sent!");
           })
           .catch(function(response) {
             //handle error
