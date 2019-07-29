@@ -1,5 +1,13 @@
 @tailwind base;
 
+.bg-image {
+    background-color: #edf2f7;
+    background-image: url("https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 @tailwind components;
 
 @tailwind utilities;
